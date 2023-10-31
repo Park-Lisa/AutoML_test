@@ -10,6 +10,9 @@ size← factor( size, ordered=T, levels=c(”s”,”m”,”l”)
 #문자열
 str_detect(user1,"wlk")
 user1[str_detect(user1,"wlk")]
+str_sub(string,1,3)
+
+
 
 #join
 inner_join(X, Y, by=”Department”)
